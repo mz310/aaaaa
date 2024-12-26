@@ -16,6 +16,7 @@ const brands = [
       products: [
         { type: "125 граммтай ", price: "15,000₮", image: "images/shoco125gr.jpg" },
         { type: "250 граммтай", price: "25,000₮", image: "images/shoco.jpg" },
+        { type: "Big Ben", price: "8,000₮", image: "images/bigben.jpg" },
       ],
     },
     {
@@ -26,6 +27,16 @@ const brands = [
         { type: "500ml bottle", price: "5,000₮", image: "images/bud05.jpg" },
         { type: "330ml Bottle", price: "4,000₮", image: "images/bud033.jpg" },
         { type: "dark 500ml bottle", price: "6,000₮", image: "images/buddark05.png" },
+      ],
+    },
+    {
+      id: 4,
+      name: "Parle",
+      image: "images/parle.png",
+      products: [
+        { type: "Poppins", price: "5,000₮", image: "images/poppins.jpg" },
+        { type: "Big Fap", price: "12,000₮", image: "images/bigfap.jpg" },
+        { type: "Fap strawberry", price: "2,000₮", image: "images/fabstraw.jpg" },
       ],
     },
   ];
